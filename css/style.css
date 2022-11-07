@@ -10,8 +10,8 @@
 header,main,section,footer,article{
   margin:0 15rem ;
 }
-.white{
-  color:white;
+.white, a{
+  color:#F9FAF8;
 }
 
 
@@ -22,16 +22,26 @@ header,main,section,footer,article{
 header,
 nav {
   display: flex;
+  justify-content: space-between;
 
 }
+.flex{
+  display: flex;
+}
+
+
 .greyBackground{
     background: #1F2937;
     height:50vh;
 }
+
 a{
   text-decoration: none;
-  color:white;
 
+}
+
+main{
+  margin-top:3em;
 }
 
 footer {
@@ -41,3 +51,23 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.mainText{
+  font-size: 48px;
+}
+
+.secondText, a, .logo{
+  font-size: 24px;
+}
+
+.mainButton{
+  padding:0.2rem 1rem;
+  background: #3882F6;
+  border:#3882F6;
+}
+
+
+button{
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
