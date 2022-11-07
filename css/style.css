@@ -38,8 +38,8 @@ nav {
 
 
 .greyBackground{
-    background: #1F2937;
-    height:50vh;
+  background: #1F2937;
+  height:50vh;
 }
 
 a{
@@ -52,7 +52,8 @@ main{
 }
 
 footer {
-
+  background: #1F2937;
+  height:10vh;
 }
 
 /******************************************
@@ -151,4 +152,12 @@ button{
   position: relative;
   top:2em;
   border:solid 2px white;
+}
+
+/******************************************
+/* FOOTER SWEET TOUCH
+/*******************************************/
+
+.sweetTouch{
+  padding:3em;
 }
