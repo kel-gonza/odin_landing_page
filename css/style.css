@@ -7,11 +7,18 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+*{
+  font-family: 'Roboto',sans-serif;
+}
 header,main,section,footer,article{
   margin:0 15rem ;
 }
 .white, a{
   color:#F9FAF8;
+}
+
+.center{
+  text-align: center;
 }
 
 
@@ -49,11 +56,12 @@ footer {
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* HEADER AND HERO ADDITIONAL STYLES
 /*******************************************/
 
 .mainText{
   font-size: 48px;
+  font-weight: 900;
 }
 
 .secondText, a, .logo{
@@ -71,3 +79,25 @@ button{
   cursor: pointer;
   border-radius: 0.5rem;
 }
+
+.logo{
+  margin-top:0.5em;
+}
+
+/******************************************
+/* 1st Section - additinal styles
+/*******************************************/
+
+.infoText{
+  font-size: 36px;
+  font-weight:900;
+  color:#1F2937;
+}
+
+.border{
+  border:5px solid #3882F6;
+}
+
+/******************************************
+/* 2st Section - additinal styles
+/*******************************************/
