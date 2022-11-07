@@ -3,33 +3,34 @@
   box-sizing: border-box;
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+header,main,section,footer,article{
+  margin:0 15rem ;
 }
+.white{
+  color:white;
+}
+
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header,
+nav {
+  display: flex;
+
+}
+.greyBackground{
+    background: #1F2937;
+    height:50vh;
+}
+a{
+  text-decoration: none;
+  color:white;
 
 }
 
