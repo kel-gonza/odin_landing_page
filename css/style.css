@@ -10,7 +10,7 @@
 *{
   font-family: 'Roboto',sans-serif;
 }
-header,main,section,footer,article{
+.margin{
   margin:0 15rem ;
 }
 .white, a{
@@ -101,3 +101,28 @@ button{
 /******************************************
 /* 2st Section - additinal styles
 /*******************************************/
+
+.lightGreyBackground{
+  background: #E5E7EB;
+  height:40vh;
+}
+
+.quote{
+  font-size:36px;
+  font-weight: 300;
+  font-style: italic;
+  color:#1F2937;
+}
+
+.centerMargin{
+  padding:7rem;
+}
+.right{
+  position: relative;
+  left: 40em;
+}
+
+.thick{
+  font-weight:bold;
+  font-size: 20px;
+}
