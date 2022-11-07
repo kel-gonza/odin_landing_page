@@ -126,3 +126,29 @@ button{
   font-weight:bold;
   font-size: 20px;
 }
+
+/******************************************
+/* 3rd Section - additinal styles - call to action
+/*******************************************/
+
+.blueBackground{
+  background: #3882F6;
+  margin:10em 0;
+  border-radius: 0.5rem;
+}
+
+.height{
+  height:30vh;
+}
+
+.padding{
+  padding:1em 8em;
+}
+
+.actionButton{
+  background:#3882F6;
+  padding: 0.2rem 1rem;
+  position: relative;
+  top:2em;
+  border:solid 2px white;
+}
