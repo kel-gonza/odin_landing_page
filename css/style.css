@@ -63,6 +63,7 @@ footer {
 .mainText{
   font-size: 48px;
   font-weight: 900;
+  margin-right:1em;
 }
 
 .secondText, a, .logo{
@@ -97,6 +98,10 @@ button{
 
 .border{
   border:5px solid #3882F6;
+}
+
+.space{
+  margin:4em;
 }
 
 /******************************************
